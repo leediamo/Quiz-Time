@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/question.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- change inline css -->
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <h3 id="text" class="hud-prefix">
+                        Quiz Time
+                    </h3>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Scores
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <!------------------------Question Container ----------------->
+            <!-- Question 1 -->
+            <div id="question-wrapper">
+                 <h2 id="question">What is the answer to this question?</h2>
+                    <div class="choice-container">
+                        <p class="choice-prefix">A</p>
+                        <p class="choice-text" data-number="1"> Choice  </p>
+                
+                     </div>
+            <!-- Question 2 -->
+                     <div class="choice-container">
+                         <p class="choice-prefix">B</p>
+                         <p class="choice-text" data-number="2"> </p>
+                     </div>
+            <!-- Question 3 -->
+                     <div class="choice-container">
+                        <p class="choice-prefix">C</p>
+                        <p class="choice-text" data-number="3">Choice 3 </p>
+                     </div>
+             </div>
+
+        </div>
+    </div>
+<script src="assets/script.js"></script>
+</body>
+
+</html>

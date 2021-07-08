@@ -7,13 +7,14 @@
 }
 body{
     /* Page Color */
-    
    background-color:beige;
 } 
 
 /*------------- Opening Page -------------------- */
 #opening{
     text-align: center;
+    padding:200px;
+    margin: 30px; 
 }
 #title{
     margin: 20px;
@@ -31,6 +32,7 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    background-color: seashell;
 }
 .btn:hover{
     background-color: teal;
